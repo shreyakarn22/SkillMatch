@@ -1,4 +1,4 @@
-Project: SkillMatch
+SkillMatch
 A web application that helps match user skills with job roles and allows downloading analysis report in PDF format.
 
 Table of Contents
@@ -68,20 +68,17 @@ SkillMatch/
 └── .gitignore
 Setup Instructions
 1. Clone the repository
-bash
-Copy
-Edit
+'''
 git clone https://github.com/your-username/SkillMatch.git
 cd SkillMatch
-2. Install dependencies
-bash
-Copy
-Edit
+'''
+3. Install dependencies
+'''
 npm install
-3. Start the server
-bash
-Copy
-Edit
+'''
+5. Start the server
+'''
 node server.js
+'''
 The server will start at: http://localhost:3000
 
