@@ -1,0 +1,275 @@
+{
+  "jobRoles": [
+    {
+      "name": "Frontend Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Redux",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Backend Developer",
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "SQL",
+        "REST API",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Data Scientist",
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Machine Learning",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    {
+      "name": "DevOps Engineer",
+      "skills": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "CI/CD",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Mobile App Developer",
+      "skills": [
+        "Java",
+        "Kotlin",
+        "Swift",
+        "React Native",
+        "Flutter",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "AI Engineer",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Structures"
+      ]
+    },
+    {
+      "name": "Cloud Solutions Architect",
+      "skills": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "Kubernetes",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Cybersecurity Analyst",
+      "skills": [
+        "Linux",
+        "Networking",
+        "Cryptography",
+        "Python",
+        "Firewall",
+        "Penetration Testing"
+      ]
+    },
+    {
+      "name": "Database Administrator",
+      "skills": [
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Database Design",
+        "Backup & Recovery",
+        "Performance Tuning"
+      ]
+    },
+    {
+      "name": "UI/UX Designer",
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Design Systems"
+      ]
+    },
+    {
+      "name": "Game Developer",
+      "skills": [
+        "Unity",
+        "C#",
+        "Game Physics",
+        "3D Modeling",
+        "Blender",
+        "Unreal Engine"
+      ]
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "Data Preprocessing",
+        "Model Deployment"
+      ]
+    },
+    {
+      "name": "Web3 Developer",
+      "skills": [
+        "Solidity",
+        "Ethereum",
+        "Smart Contracts",
+        "Blockchain",
+        "Metamask",
+        "Web3.js"
+      ]
+    },
+    {
+      "name": "Test Automation Engineer",
+      "skills": [
+        "Selenium",
+        "Java",
+        "TestNG",
+        "Cypress",
+        "JUnit",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "AR/VR Developer",
+      "skills": [
+        "Unity",
+        "C#",
+        "ARKit",
+        "ARCore",
+        "3D Modeling",
+        "OpenXR"
+      ]
+    }
+  ],
+  "allSkills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Redux",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "SQL",
+    "REST API",
+    "Docker",
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Machine Learning",
+    "TensorFlow",
+    "Linux",
+    "Kubernetes",
+    "AWS",
+    "CI/CD",
+    "Terraform",
+    "Java",
+    "Kotlin",
+    "Swift",
+    "React Native",
+    "Flutter",
+    "Firebase",
+    "PyTorch",
+    "Deep Learning",
+    "Azure",
+    "GCP",
+    "Networking",
+    "Cryptography",
+    "Firewall",
+    "Penetration Testing",
+    "PostgreSQL",
+    "Database Design",
+    "Backup & Recovery",
+    "Performance Tuning",
+    "Figma",
+    "Adobe XD",
+    "Wireframing",
+    "Prototyping",
+    "User Research",
+    "Design Systems",
+    "Unity",
+    "C#",
+    "Game Physics",
+    "3D Modeling",
+    "Blender",
+    "Unreal Engine",
+    "Scikit-learn",
+    "Data Preprocessing",
+    "Model Deployment",
+    "Solidity",
+    "Ethereum",
+    "Smart Contracts",
+    "Blockchain",
+    "Metamask",
+    "Web3.js",
+    "Selenium",
+    "TestNG",
+    "Cypress",
+    "JUnit",
+    "ARKit",
+    "ARCore",
+    "OpenXR"
+  ],
+  "submissions": [
+    {
+      "name": "shreya",
+      "email": "shyamsurendra17@gmail.com",
+      "jobRole": "UI/UX Designer",
+      "matchPercent": 50,
+      "matchedSkills": [
+        "Figma",
+        "Wireframing",
+        "Prototyping"
+      ],
+      "missingSkills": [
+        "Adobe XD",
+        "User Research",
+        "Design Systems"
+      ],
+      "date": "2025-08-03T09:06:16.695Z"
+    },
+    {
+      "name": "shre",
+      "email": "shyamsurendra17@gmail.com",
+      "jobRole": "UI/UX Designer",
+      "matchPercent": 33,
+      "matchedSkills": [
+        "Figma",
+        "Prototyping"
+      ],
+      "missingSkills": [
+        "Adobe XD",
+        "Wireframing",
+        "User Research",
+        "Design Systems"
+      ],
+      "date": "2025-08-03T11:43:18.195Z"
+    }
+  ]
+}

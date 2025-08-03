@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillMatch - Skill Gap Analyzer</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo"><i class="fa-solid fa-bolt"></i> SkillMatch</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#features" class="nav-link">Features</a></li>
+      <li><a href="#analyzer" class="nav-link">Analyzer</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">SkillMatch</h1>
+          <p class="hero-subtitle">Bridge your skill gap. Land your dream job.</p>
+          <p class="hero-desc">A modern tool to analyze your skills and get a personalized roadmap for your tech career.</p>
+          <div class="hero-actions">
+            <button class="btn btn-accent" onclick="scrollToSection('analyzer')">Get Started</button>
+          </div>
+        </div>
+        <img class="hero-img" src="./assets/career.svg" alt="Career Progress">
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title">About SkillMatch</h2>
+          <p>
+            <b>SkillMatch</b> is your personal career navigator, designed to help you identify and bridge your skill gaps for top tech roles. 
+            <br><br>
+            <b>Why SkillMatch?</b>
+            <ul>
+              <li>Built on real-world job data and industry standards.</li>
+              <li>Personalized, actionable learning roadmaps.</li>
+              <li>Modern, interactive, and visually engaging experience.</li>
+              <li>Helps you focus your learning and track your progress.</li>
+              <li>Perfect for students, job seekers, and professionals looking to upskill.</li>
+            </ul>
+          </p>
+        </div>
+        <img class="about-img" src="./assets/aboutresume.svg" alt="About SkillMatch">
+      </div>
+    </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features-section">
+      <h2 class="section-title">Features</h2>
+      <div class="features-list">
+        <div class="feature-card">
+          <i class="fa-solid fa-magnifying-glass-chart feature-icon"></i>
+          <h3>Skill Analyzer</h3>
+          <p>Analyze your current skillset against top tech roles.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-file-lines feature-icon"></i>
+          <h3>Detailed PDF Report</h3>
+          <p>Download a comprehensive PDF with skill gaps, job matches, and upskilling resources.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-database feature-icon"></i>
+          <h3>Real Job Data</h3>
+          <p>All job roles and skills are based on real-world tech industry requirements.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-user-graduate feature-icon"></i>
+          <h3>Beginner Friendly</h3>
+          <p>Designed for students and freshers to easily explore their career path without confusion.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Analyzer Section -->
+    <section id="analyzer" class="section analyzer-section">
+      <h2 class="section-title">Skill Gap Analyzer</h2>
+      <form id="skillForm" class="analyzer-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="off">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="jobRole">Desired Job Role</label>
+            <select id="jobRole" name="jobRole" required>
+              <option value="">Select a job role</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="skillsDropdownBtn">Your Skills</label>
+            <div class="dropdown">
+              <button type="button" id="skillsDropdownBtn" class="dropdown-btn">Select Skills <i class="fa-solid fa-chevron-down"></i></button>
+              <div id="skillsDropdown" class="dropdown-content"></div>
+            </div>
+            <div id="selectedSkills" class="selected-skills"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-accent analyzer-btn">Analyze</button>
+      </form>
+      <div id="report" class="report"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <span>SkillMatch &copy; 2024 | Built by Shreya</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
