@@ -1,5 +1,5 @@
 Project: SkillMatch
-A web application that helps match user skills with job roles and allows resume generation in PDF format.
+A web application that helps match user skills with job roles and allows downloading analysis report in PDF format.
 
 Table of Contents
 Overview
