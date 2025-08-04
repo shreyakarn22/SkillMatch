@@ -1,19 +1,4 @@
 SkillMatch
-A web application that helps match user skills with job roles and allows downloading analysis report in PDF format.
-
-Table of Contents
-Overview
-
-Features
-
-Tech Stack
-
-Project Structure
-
-Setup Instructions
-
-
-Overview
 SkillMatch is a simple full-stack web application built using HTML, CSS, JavaScript, Node.js, and Express.js.
 Users input their skills, and the app matches them with suitable job roles. It also provides the option to download results as a PDF.
 
@@ -53,32 +38,9 @@ File System (fs)
 
 Project Structure
 
-SkillMatch/
-│
-├── node_modules/           # Node dependencies
-├── public/                 # Frontend files
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── db.json                 # Local JSON database
-├── server.js               # Express server
-├── package.json
-├── package-lock.json
-└── .gitignore
+<pre lang="no-highlight"><code> 📁 skillmatch/ ├── public/ │ ├── index.html │ ├── style.css │ └── script.js ├── db.json ├── package.json ├── server.js </code></pre>
 Setup Instructions
-1. Clone the repository
-'''
-git clone https://github.com/your-username/SkillMatch.git
-cd SkillMatch
-'''
-3. Install dependencies
-'''
-npm install
-'''
-5. Start the server
-'''
-node server.js
-'''
+<pre><code>```bash git clone https://github.com/your-username/skillmatch.git cd skillmatch npm install npm start ```</code></pre>
+
 The server will start at: http://localhost:3000
 
