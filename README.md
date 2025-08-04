@@ -1,46 +1,56 @@
-SkillMatch
+# SkillMatch
+
 SkillMatch is a simple full-stack web application built using HTML, CSS, JavaScript, Node.js, and Express.js.
 Users input their skills, and the app matches them with suitable job roles. It also provides the option to download results as a PDF.
 
-Features
-Skill-to-job-role matching logic
+## Features
 
-Dynamic content rendering using vanilla JavaScript
+* Skill-to-job-role matching logic
 
-PDF generation using jsPDF
+* Dynamic content rendering using vanilla JavaScript
 
-Minimalistic and responsive UI
+* PDF generation using jsPDF
 
-Fake database using db.json
+* Minimalistic and responsive UI
 
-Backend API using Express.js
+* Backend API using Express.js
 
-Tech Stack
-Frontend:
-HTML5
+## Tech Stack
 
-CSS3 (Flexbox + Variables)
+### Frontend:
 
-JavaScript (ES6+)
+* HTML5
 
-Font Awesome 6.4.0
+* CSS3 (Flexbox + Variables)
 
-jsPDF 2.5.1
+* JavaScript (ES6+)
 
-Backend:
-Node.js
+### Backend:
 
-Express.js
+* Node.js
 
-CORS
+* Express.js
 
-File System (fs)
+* CORS
 
-Project Structure
+* File System (fs)
 
-<pre lang="no-highlight"><code> 📁 skillmatch/ ├── public/ │ ├── index.html │ ├── style.css │ └── script.js ├── db.json ├── package.json ├── server.js </code></pre>
-Setup Instructions
-<pre><code>```bash git clone https://github.com/your-username/skillmatch.git cd skillmatch npm install npm start ```</code></pre>
+## Setup Instructions
+
+### 1. Clone the repository:
+
+   ``git clone https://github.com/shreyakarn22/SkillMatch.git``
+
+   ``cd SkillMatch``
+   
+### 2. Install dependencies:
+
+   ``npm install``
+   
+### 3. Start the server:
+
+   ``node server.js``
+
 
 The server will start at: http://localhost:3000
 
